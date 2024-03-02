@@ -1,0 +1,96 @@
+{
+    "users": [
+        {
+            "userId": 1,
+            "username": "john_doe",
+            "fullName": "John Doe",
+            "email": "john@example.com",
+            "password": "123",
+            "birthdate": "1990-01-01",
+            "location": "City, Country",
+            "admin": "false",
+            "createdAt": "2024-02-18T12:00:00Z"
+        },
+        {
+            "userId": 2,
+            "username": "jane_smith",
+            "fullName": "Jane Smith",
+            "email": "jane@example.com",
+            "password": "234",
+            "birthdate": "1992-03-15",
+            "location": "Another City, Country",
+            "admin": "true",
+            "createdAt": "2024-02-18T12:30:00Z"
+        },
+        {
+            "userId": "3",
+            "username": "sana",
+            "fullName": "sana zabi",
+            "email": "azertys@gmail.com",
+            "password": "123",
+            "birthdate": "23-04-2003",
+            "admin": "false",
+            "location": "france"
+        }
+    ],
+    "posts": [
+        {
+            "postId": 101,
+            "userId": 1,
+            "content": "This is John's first post!",
+            "comments": [
+                {
+                    "commentId": 201,
+                    "userId": 2,
+                    "content": "Nice post, John!",
+                    "createdAt": "2024-02-18T13:00:00Z"
+                }
+            ],
+            "createdAt": "2024-02-18T12:15:00Z"
+        },
+        {
+            "postId": 102,
+            "userId": 1,
+            "content": "Another post from John.",
+            "comments": [],
+            "createdAt": "2024-02-18T12:45:00Z"
+        },
+        {
+            "postId": 100,
+            "userId": 1,
+            "content": "This is John's third post!",
+            "comments": [],
+            "createdAt": "2024-02-18T12:15:00Z"
+        }
+    ],
+    "comments": [
+        {
+            "commentId": 201,
+            "userId": 2,
+            "postId": 101,
+            "content": "Nice post, John!",
+            "createdAt": "2024-02-18T13:00:00Z"
+        },
+        {
+            "commentId": 57,
+            "userId": 1,
+            "postId": "100",
+            "content": "hello",
+            "createdAt": "2024-03-02 12:41:35"
+        },
+        {
+            "commentId": 56,
+            "userId": 1,
+            "postId": "101",
+            "content": "hello users",
+            "createdAt": "2024-03-02 13:07:03"
+        },
+        {
+            "commentId": 10,
+            "userId": 1,
+            "postId": "101",
+            "content": "hi jooohn",
+            "createdAt": "2024-03-02 14:32:04"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+
+
+/* Reset default margin and padding */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color */
+body {
+    background-color: #2c73dd;
+    font-family: Arial, sans-serif;
+}
+.l{
+    color: #647dce;
+}
+
+/* Container to center content */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #647dce;
+    border-radius: 5px;
+    resize: vertical;
+    color: aquamarine;
+}
+
+.add-comment-submit {
+    background-color: #bbcbeb;
+    color: #635555;
+    border: '';
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    margin-top: 0cm;
+    margin-bottom: 1cm;
+}
+
+button[type="submit"]:hover {
+    background-color: #b9d0ff;
+   
+} 
+
+.b{
+    margin-right: 3cm;
+}
+
+
+/* Post list styles */
+ul {
+    list-style: '';
+}
+
+.post li {
+    background-color: #b6d6fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    margin-bottom: 10px;
+}
+
+.post-date {
+    color: #666;
+    font-size: 14px;
+}
